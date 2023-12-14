@@ -1,0 +1,69 @@
+:root {
+    --inner-wrapper: 980;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #ccc6c6;
+    font-family: 'Nunito', sans-serif;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#wrapper {
+width: 100%;
+}
+
+.inner-wrapper {
+    max-width: var(--inner-wrapper);
+    margin: 0 auto;
+}
+
+.toplogo {
+    width: 100% ;
+}
+
+.header-middle {
+    max-width: 1000px;
+    margin: 0 auto; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header-text {
+    font-weight: 80px;
+    font-size: 50px;
+    color: white;
+    margin-top: -375px ;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.animasi {
+    margin-top: -200px;
+    margin-left: -120px;
+    object-fit: cover;
+    scale:unset;
+}
+
+.cek {
+    margin-top: 100px;
+    margin-bottom: 0;
+    color: white;
+    margin-left: 90px;
+}
+
+.unggah {
+    max-width: 1000px;
+    text-align: center;
+    background: url(images/Rectangle\ 6.svg);
+    padding: 25px;
+    color: white;
+
+}
